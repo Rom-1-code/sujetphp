@@ -75,7 +75,7 @@
     if (!isset($_POST['deconnexion'])) { // si l'utilisateur appuie sur le bouton de deconnexion la session ce detruitf
         session_destroy();
     } else {
-        echo "Au revoir";
+        echo "Au revoir merci de votre visite !";
     }
 
     ?>
